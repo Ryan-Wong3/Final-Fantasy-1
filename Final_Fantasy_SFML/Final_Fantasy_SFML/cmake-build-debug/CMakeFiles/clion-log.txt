@@ -1,0 +1,17 @@
+"C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2021.3.2/bin/ninja/win/ninja.exe" -G Ninja C:\Users\Ryam\CLionProjects\Final_Fantasy_SFML\Final_Fantasy_SFML
+CMake Warning (dev) at CMakeLists.txt:22 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable SFML_ROOT is set to:
+
+    C:/SFML-2.5.1
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found SFML .. in C:/SFML-2.5.1/include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Ryam/CLionProjects/Final_Fantasy_SFML/Final_Fantasy_SFML/cmake-build-debug
